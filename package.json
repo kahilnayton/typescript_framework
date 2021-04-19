@@ -1,0 +1,24 @@
+{
+  "name": "typescript_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahilnayton/typescript_framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahilnayton/typescript_framework/issues"
+  },
+  "homepage": "https://github.com/kahilnayton/typescript_framework#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "start:server": "json-server -w db.json",
+    "start:client": "parcel index.html"
+  }
+}
